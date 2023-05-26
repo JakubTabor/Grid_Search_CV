@@ -6,3 +6,4 @@
 # Then before i use "Grid Search CV" I gonna write my code without it, so I import "SVC" model "kernel as rbf" "C will be 30" and "gamma = auto"
 # This parameters are just a try, then I train my model "model.fit(X_train, y_train)" and check score "model.score(X_test, y_test)"
 # I gonna check different parameters with "cross_val_score", so I supply into my "cross_val_score" same model with different parameters
+# "cv" its the number of iterations, I get some different five scores "cv=5" from my "cross_val_score"
