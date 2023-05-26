@@ -3,3 +3,4 @@
 # Flower name will be my target columns, so I create this columns "df['flower'] = iris.target"and apply flower names to my column
 # "df['flower'].apply(lambda x : iris.target_names[x])", then I check if it work by looking at my data with two different flower names 
 # Now when I have my dataframe and target column I can import "train_test_split" and get "train and test set" of my data, X as "iris.data" y as "iris.target"
+# Then before i use "Grid Search CV" I gonna write my code without it, so I import "SVC" model "kernel as rbf" "C will be 30" and "gamma = auto"
