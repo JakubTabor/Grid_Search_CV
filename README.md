@@ -13,3 +13,4 @@
 # and it return results "clf.cv_results_", but they are messy, so I need to my "pandas DataFrame", now they are more clearly
 # I take only the most important parameters "['param_C', 'param_kernel', 'mean_test_score']" and I check "clf.best_score_" and "clf.best_params_"
 # With "RandomizedSearchCV" I gonna get random results, so I put this same parameters as before and set numbers of results at two "n_iter=2"
+# I change also my messy results into pretty looking "pd.DataFrame(rs.cv_results_)[['param_C', 'param_kernel', 'mean_test_score']]"
