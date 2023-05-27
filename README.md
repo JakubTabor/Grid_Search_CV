@@ -7,3 +7,4 @@
 # This parameters are just a try, then I train my model "model.fit(X_train, y_train)" and check score "model.score(X_test, y_test)"
 # I gonna check different parameters with "cross_val_score", so I supply into my "cross_val_score" same model with different parameters
 # "cv" its the number of iterations, I get some different five scores "cv=5" from my "cross_val_score"
+# Now I import "GridSearchCV" and put into my classifier "SVC" model, I set parameter "gamma to auto" and now I can check different parameters of my model 
