@@ -10,3 +10,4 @@
 # Now I import "GridSearchCV" and put into my classifier "SVC" model, I set parameter "gamma to auto" and now I can check different parameters of my model 
 # I set parameter "C at thre numbers [1, 10, 20]", then parameter "kernel to ['rbf','linear']" and "cv at 5, so it gonna take 5 different trys"
 # "return_train_score = False" means that it will not include training scores, then I train my classifier with "X and y" as (iris.data, iris.target)
+# and it return results "clf.cv_results_", but they are messy, so I need to my "pandas DataFrame", now they are more clearly
